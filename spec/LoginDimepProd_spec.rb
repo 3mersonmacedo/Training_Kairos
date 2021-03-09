@@ -1,8 +1,8 @@
-describe 'Kairos', :kairos do
+describe 'Kairos', :login do
 
-    it 'Login Kairos Produção' do 
+    it 'Login Kairos' do 
         #login
-        visit 'https://www.dimepkairos.com.br'
+        visit 'https://www.dimepkairos.com.br/'
         fill_in 'LogOnModel.UserName', with: 'planoteste06102020br1@teste.com'
         fill_in 'LogOnModel.Password', with: '1'
         click_button 'btnFormLogin'
